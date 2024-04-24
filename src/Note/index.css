@@ -1,0 +1,131 @@
+.note-container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 180px;
+    width:250px;
+    
+    margin-left: 30px;
+    background-color:rgb(253, 247, 247);
+    text-align: left;
+    padding-left: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+}
+.mobile-note-container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    height:90px;
+    width:70px;
+    background-color:rgb(253, 247, 247);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    
+}
+.note1{
+    color:rgb(77, 104, 194);
+    height: 30px;
+    width:30px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.mobile-note1{
+    color:rgb(77, 104, 194);
+    height: 25px;
+    width:20px;
+    
+}
+.mobile-note2{
+    color:rgb(26, 64, 187);
+    height: 25px;
+    width:20px;
+    
+}
+.mobile-note3{
+    color:rgb(252, 63, 63);
+    height: 25px;
+    width:20px;
+    
+}
+.mobile-note4{
+    color:rgb(226, 48, 78);
+    height: 25px;
+    width:20px;
+    
+}
+.mobile-note5{
+    color:rgb(28, 230, 162);
+    height: 25px;
+    width:20px;
+    
+}
+.library{
+    font-size: 23px;
+    font-weight: bold;
+    
+}
+.mobile-library{
+    font-size: 15px;
+    font-weight: bold;
+}
+.dm{
+    font-size: 18px;
+    margin-top: 0px;
+   
+    
+}
+
+.small-notes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.note2{
+    color:rgb(26, 64, 187);
+    height: 30px;
+    width:30px;
+    font-size: 20px;
+    margin-top: 20px;
+   
+}
+.note5{
+    color:rgb(28, 230, 162);
+    height: 30px;
+    width:30px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.note4{
+    color:rgb(226, 48, 78);
+    height: 30px;
+    width:30px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.note3{
+    color:rgb(252, 63, 63);
+    height: 30px;
+    width:30px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.note-slider-container-mobile{
+    height:120px;
+    width: 320px;
+    background-color: rgb(209, 209, 209);
+    padding-top: 15px;
+    margin-left: 10px;
+  }
+
+@media screen and (min-width: 768px) {
+    .note-slider-container-mobile{
+      display: none;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .note-container{
+        display: none;
+    }
+  }
+

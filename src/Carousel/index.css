@@ -1,0 +1,29 @@
+.slider-container{
+    width:1000px;
+   
+    background-color: rgb(253, 252, 251);
+    margin-top: 30px;
+    border-radius: 20px;
+    height:450px ;
+    box-shadow: 0 4px 8px rgba(0.1, 0.1, 0.1, 0.1);
+}
+@media screen and (min-width: 768px) {
+    .slider-container-mobile {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .slider-container{
+        display: none;
+    }
+  }
+  .slider-container-mobile{
+    width:290px;
+    height:270px;
+    padding-left: 10px;
+    background-color: rgb(253, 252, 251);
+    margin-top: 10px;
+    border-radius: 10px;
+    height:250px ;
+    box-shadow: 0 4px 8px rgba(0.1, 0.1, 0.1, 0.1);
+  }

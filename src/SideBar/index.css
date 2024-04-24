@@ -1,0 +1,237 @@
+.slidebar{
+   width: 200px;
+    /* max-height:100vh; */
+    background-color:beige;
+    /* position: fixed; */
+}
+.create{
+    display: flex;
+    justify-content:start;
+    align-items: start;
+    padding-top: 20px;
+    height: 100%;
+    width:40px;
+    background-color: #333333;
+    color: aliceblue;
+}
+.side-container{
+    width:50px;
+    height: 100%;
+    background-color: beige;
+    /* position: fixed; */
+
+    text-align: center;
+    padding-right: 10px;
+}
+
+.small-image{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+.names-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.chat-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.single-name-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.small-name{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 12px;
+}
+
+
+.logo-container{
+    display: flex;
+    flex-direction: row;
+  
+}
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 25px;
+}
+.creating-container{
+    
+    height: 40px;
+    width: 40px;
+    background-color:transparent;
+    border: 0px;
+    margin-left: 100px;
+}
+@media screen and (max-width: 768px){
+    .creating-container{
+        margin-left: 20px;
+        height: 20px;
+        width: 20px;
+    }
+}
+.logo{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+   
+  margin-left: 20px;
+}
+.search-icon{
+    color: #333333;
+    height: 25px;
+    width: 25px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 768px){
+    .search-icon{
+        height: 12px;
+        width: 12px;
+        margin-left: 5px;
+    }
+}
+.main-logo{
+    color:blue;
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+@media screen and (max-width: 768px){
+    .main-logo{
+        color:blue;
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+    }
+}
+.small-name{
+    font-size: 20px;
+    color:#333333;
+    font-weight: 600;
+    padding-bottom: 20px;
+    text-align: center;
+}
+@media screen and (max-width: 768px){
+    .small-name{
+        font-size: 7px;
+        font-weight: 400;
+        padding-bottom: 20px;
+        
+    }
+    .slidebar{
+        width: 100px;
+        
+     }
+}
+.arrow{
+    margin-top: 15px;
+    height: 30px;
+}
+.settings{
+    color: #333333;
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+    margin-top: 230px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    background-color: beige;
+}
+@media screen and (max-width: 768px){
+    .settings{
+        height: 15px;
+        width: 15px;
+        margin-left: 10px;
+        margin-top: 150px;
+    }
+}
+.close-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    justify-content: center;
+    padding-top: 20px;
+    margin-left: 10px;
+}
+.close-button{
+    background-color: transparent;
+    border:0px;
+}
+/* .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: beige;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+  }
+  
+  .sidebar.open {
+    transform: translateX(0);
+  }
+  
+  .sidebar-content {
+    padding: 20px;
+  }
+  
+  .toggle-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .toggle-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .toggle-icon {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .menu-items {
+    margin-top: 20px;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+  }
+  
+  .label {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .settings-container {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  } */
